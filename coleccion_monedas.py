@@ -1,6 +1,9 @@
 import time
 import os
-
+# Comentario 1: Me falto agregar una opcion(simbolo) aparte para la moneda de 10 pesos ya que esta cuenta con 2 simbolos, no use el "angel libertad"
+# Comentario 2: Por ultimo en los simbolos se puede ver que obligo de alguna forma al usuario a ingresar números para agregar las opciones de los simbolos según la moneda, no pude solucionar esa parte
+# ya que no se como hacer para agregar de forma ordenada el indice correspondiente de la tupla el cual pertenece este. Por lo que se me facilito hacer que el usuario ingresara el numero del indice
+# de la tupla(simbolos) donde se encontraba el valor del simbolo correspondiente.
 
 print('Bienvenido a la App Colección De Monedas Chilenas!')
 time.sleep(1)
